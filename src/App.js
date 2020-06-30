@@ -27,7 +27,7 @@ const App = () => {
 	const [fetchedUser, setUser] = useState(null);
 	const [fetchedState, setFetchedState] = useState(null);
 	const [snackbar, setSnackbar] = useState(null);
-	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
+	const [popout, setPopout] = useState(null);
 	const [userHasSeenIntro, setUserHasSeenIntro] = useState(false);
 
 	useEffect(() => {

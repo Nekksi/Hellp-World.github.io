@@ -18,7 +18,7 @@ const Intro = ({ id, go, route, fetchedUser, userHasSeenIntro }) => (
 					<Div className='User'>
 						{fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
 						<h2>Привет, {fetchedUser.first_name}</h2>
-						<h3>Этот сервис помогает следить за тем, чтобы туалетная бумага дома не заканчивалась и ты не попал в неловкую ситуацию, когда ее не окажется в самый нужный момент.</h3>
+						<h3>Этот сервис помогает следить за тем, как развивается проект Karazha.</h3>
 					</Div>
 				</Group>
 				<FixedLayout vertical='bottom'>
