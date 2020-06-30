@@ -11,7 +11,7 @@ import './Intro.css';
 
 const Intro = ({ id, go, route, fetchedUser, userHasSeenIntro }) => (
 	<Panel id={id} centered={true}>
-		<PanelHeader>Туалетка</PanelHeader>
+		<PanelHeader>KarazhaMusic</PanelHeader>
 		{(fetchedUser && !userHasSeenIntro) &&
 			<Fragment>
 				<Group>
@@ -24,7 +24,7 @@ const Intro = ({ id, go, route, fetchedUser, userHasSeenIntro }) => (
 				<FixedLayout vertical='bottom'>
 					<Div>
 						<Button mode='commerce' size="xl" level="2" onClick={() => go(route)}>
-							ОК, всё понятно
+							Следить за проектом.
 						</Button>
 					</Div>
 				</FixedLayout>
